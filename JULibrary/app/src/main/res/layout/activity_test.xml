@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Test">
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:background="@drawable/rectengle_button_color"
+        >
+        <LinearLayout
+            android:background="@drawable/rectangle_button"
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            >
+
+            <TextView
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="#004D40"
+                android:layout_gravity="center"
+                android:text="Select Year"
+                android:textSize="25dp"
+                android:textAlignment="center"
+                ></TextView>
+
+            <Spinner
+                android:layout_marginLeft="40dp"
+                android:id="@+id/selectYearSpinnerid"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                ></Spinner>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBarid"
+        ></ProgressBar>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/deleteImageButtonid"
+        android:textAlignment="center"
+        android:text="Delete Image"
+        android:background="@drawable/rectangle_button"
+        android:textColor="#00695C"
+        android:visibility="gone"
+        ></Button>
+
+    <ListView
+        android:id="@+id/olympaidScoreBoardListViewid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="5dp"
+        android:divider="@drawable/bgc"
+        android:listSelector="#ECE4E4"
+        ></ListView>
+
+</LinearLayout>

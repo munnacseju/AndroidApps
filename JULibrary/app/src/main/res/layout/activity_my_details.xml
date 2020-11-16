@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/senery"
+    tools:context=".MyDetails">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Full Name"
+                android:textSize="30dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="5dp"
+                ></TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectengle_button_color"
+                android:layout_marginBottom="10dp"
+                android:padding="2dp"
+                >
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rectangle_button"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="30dp"
+                    android:id="@+id/myDetailsNametextViewid"
+                    ></EditText>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Department/Institute"
+                android:textSize="30dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="5dp"
+                ></TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectengle_button_color"
+                android:layout_marginBottom="10dp"
+                android:padding="2dp"
+                >
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounder_button_white"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="30dp"
+                    android:id="@+id/myDetailsDepartmenttextViewid"
+                    ></EditText>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hall"
+                android:textSize="30dp"
+                android:textColor="#FDFDFD"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="5dp"
+                ></TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectengle_button_color"
+                android:layout_marginBottom="10dp"
+                android:padding="2dp"
+                >
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounder_button_white"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="30dp"
+                    android:id="@+id/myDetailsHallttextViewid"
+                    ></EditText>
+
+            </LinearLayout>
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Batch"
+                android:textSize="30dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="5dp"
+                ></TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectengle_button_color"
+                android:layout_marginBottom="10dp"
+                android:padding="2dp"
+                >
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounder_button_white"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="30dp"
+                    android:id="@+id/myDetailsBatchtextViewid"
+                    ></EditText>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounder_button_color"
+                android:layout_gravity="center"
+                android:padding="2dp"
+                >
+                <Button
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/myDetailsSubmitButton"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rounder_button_white"
+                    android:text=" Submit "
+                    android:textStyle="bold"
+                    ></Button>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

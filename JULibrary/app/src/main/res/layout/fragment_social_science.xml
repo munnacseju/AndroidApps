@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.socialScience.fragment_social_science">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+
+            <LinearLayout
+                android:id="@+id/economicsLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginBottom="10dp"
+                android:background="#CECBC5"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+                    android:background="@drawable/dept_economics"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/bga"
+                    android:gravity="center"
+                    android:text="Economics"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp"
+                    android:textStyle="bold"></TextView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/geographyLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginBottom="10dp"
+                android:background="#CECBC5"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+                    android:background="@drawable/dept_geography"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/bga"
+                    android:gravity="center"
+                    android:text="Geography"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp"
+                    android:textStyle="bold"></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/anthropologyLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginBottom="10dp"
+                android:background="#CECBC5"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+                    android:background="@drawable/dept_anthropology"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/bga"
+                    android:gravity="center"
+                    android:text="Anthropology"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp"
+                    android:textStyle="bold"></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/gpLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginBottom="10dp"
+                android:background="#CECBC5"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+                    android:background="@drawable/dept_gp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/bga"
+                    android:gravity="center"
+                    android:text="GP"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/publicAddLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginBottom="10dp"
+                android:background="#CECBC5"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+                    android:background="@drawable/dept_publicadd"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/bga"
+                    android:gravity="center"
+                    android:text="Public Administration"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/urpLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginBottom="10dp"
+                android:background="#CECBC5"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+                    android:background="@drawable/dept_urp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/bga"
+                    android:gravity="center"
+                    android:text="URP"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

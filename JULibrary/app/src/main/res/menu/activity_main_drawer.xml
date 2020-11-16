@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/school_foreground"
+            android:title="Science Faculty" />
+        <item
+            android:id="@+id/nav_tools_biologicalScience"
+            android:icon="@drawable/school_foreground"
+            android:title="Biological Science" />
+
+        <item
+            android:id="@+id/nav_gallery_businessStadies"
+            android:icon="@drawable/school_foreground"
+            android:title="Business Stadies" />
+
+        <item
+            android:id="@+id/nav_artsAndHuman"
+            android:icon="@drawable/school_foreground"
+            android:title="Arts Faculty"
+            />
+
+        <item
+            android:id="@+id/nav_socialScience"
+            android:icon="@drawable/school_foreground"
+            android:title="Social Science"
+            />
+        <item
+            android:id="@+id/nav_slideshow_low"
+            android:icon="@drawable/school_foreground"
+            android:title="Low and justice" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share_IIT"
+                android:icon="@drawable/school_foreground"
+                android:title="IIT" />
+            <item
+                android:id="@+id/nav_send_IBA"
+                android:icon="@drawable/school_foreground"
+                android:title="IBA" />
+            <item
+                android:icon="@drawable/school_foreground"
+                android:id="@+id/nav_irsg"
+                android:title="IRSG"
+                ></item>
+            <item
+                android:icon="@drawable/school_foreground"
+                android:id="@+id/nav_biclc"
+                android:title="BICLC"
+                ></item>
+
+        </menu>
+    </item>
+
+</menu>

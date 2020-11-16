@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/shareMenu"
+        android:icon="@drawable/ic_menu_share"
+        app:showAsAction="always"
+        android:title="share"></item>
+
+    <item
+        android:id="@+id/aboutMenu"
+        android:title="About Us"
+        app:showAsAction="never"
+        ></item>
+
+    <item
+        android:id="@+id/myProfileMenu"
+        android:title="My Profile"
+        ></item>
+
+    <item
+        android:id="@+id/logOutMenu"
+        android:title="Log Out"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/bookRegistrationMenu"
+        android:title="Book Ragistration"
+        app:showAsAction="never"
+        android:visible="false"
+        ></item>
+
+    <item
+        android:id="@+id/orderListMenu"
+        android:title="Order List"
+        app:showAsAction="never"
+        android:visible="false"
+        ></item>
+</menu>

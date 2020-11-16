@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+
+            <LinearLayout
+                android:id="@+id/cseLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginBottom="10dp"
+                android:background="#CECBC5"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+                    android:background="@drawable/dept_cse"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/bga"
+                    android:gravity="center"
+                    android:text="CSE"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp"
+                    android:textStyle="bold"></TextView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/mathLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginBottom="10dp"
+                android:background="#CECBC5"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+                    android:background="@drawable/dept_math"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/bga"
+                    android:gravity="center"
+                    android:text="Mathematics"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp"
+                    android:textStyle="bold"></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/physicsLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginBottom="10dp"
+                android:background="#CECBC5"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+                    android:background="@drawable/dept_physics"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/bga"
+                    android:gravity="center"
+                    android:text="Physics"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp"
+                    android:textStyle="bold"></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cheLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginBottom="10dp"
+                android:background="#CECBC5"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+                    android:background="@drawable/dept_chemistry"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/bga"
+                    android:gravity="center"
+                    android:text="Chemistry"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/statisticsLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginBottom="10dp"
+                android:background="#CECBC5"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+                    android:background="@drawable/dept_staticstic"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/bga"
+                    android:gravity="center"
+                    android:text="Statistics"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/environmenLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginBottom="10dp"
+                android:background="#CECBC5"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+                    android:background="@drawable/dept_env"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/bga"
+                    android:gravity="center"
+                    android:text="Environmental Sciences"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/geologyLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginBottom="10dp"
+                android:background="#CECBC5"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+                    android:background="@drawable/dept_geology"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/bga"
+                    android:gravity="center"
+                    android:text="Geology"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="jutecbd.munna.julibrary.ui.home.HomeFragment"
+        android:label="Science Faculty"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery_businessStadies"
+        android:name="jutecbd.munna.julibrary.ui.BusinessStadies.GalleryFragment"
+        android:label="Business Stadies"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow_low"
+        android:name="jutecbd.munna.julibrary.ui.Low.SlideshowFragment"
+        android:label="Low and Justice"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_tools_biologicalScience"
+        android:name="jutecbd.munna.julibrary.ui.BiologicalScience.ToolsFragment"
+        android:label="Biological Science"
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/nav_share_IIT"
+        android:name="jutecbd.munna.julibrary.ui.IIT.ShareFragment"
+        android:label="IIT"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send_IBA"
+        android:name="jutecbd.munna.julibrary.ui.IBA.SendFragment"
+        android:label="IBA"
+        tools:layout="@layout/fragment_send" />
+
+    <fragment
+        android:id="@+id/nav_artsAndHuman"
+        android:name="jutecbd.munna.julibrary.ui.artsAndHuman.ArtsAndHuman"
+        android:label="Arts Faculty"
+        tools:layout="@layout/arts_and_human_fragment">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_socialScience"
+        android:name="jutecbd.munna.julibrary.ui.socialScience.fragment_social_science"
+        android:label="Social Science"
+        tools:layout="@layout/fragment_social_science"
+        ></fragment>
+
+    <fragment
+        android:id="@+id/nav_irsg"
+        android:name="jutecbd.munna.julibrary.ui.IRSG.IRSG"
+        tools:layout="@layout/irsg_fragment"
+        android:label="IRSG"
+        ></fragment>
+
+    <fragment
+        android:id="@+id/nav_biclc"
+        android:name="jutecbd.munna.julibrary.ui.BICLC.BICLC"
+        android:label="BICLC"
+        tools:layout="@layout/biclc_fragment"
+        ></fragment>
+
+</navigation>

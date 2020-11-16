@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jutecbd.munna.julibrary">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/library"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/rounder_button_white"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MyDetails"></activity>
+        <activity android:name=".checkOrder" />
+        <activity android:name=".Cart" />
+        <activity android:name=".DeleteImage" />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".OTP" />
+        <activity android:name=".Register" />
+        <activity android:name=".Order" />
+        <activity android:name=".BookRegistration" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Test" />
+        <activity android:name=".FirstScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
